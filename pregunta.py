@@ -11,9 +11,9 @@ def clean_data():
 
     df = pd.read_csv("solicitudes_credito.csv", sep=";")
 
-    #
+    
     # Inserte su código aquí
-    #
+    
     #print(df.dtypes)
 
     #eliminar datos faltantes y duplicados
