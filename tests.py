@@ -20,6 +20,7 @@ def test_02():
         164,
     ]
 
+    
 
 def test_03():
     assert pregunta.clean_data().idea_negocio.to_list() == [
