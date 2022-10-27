@@ -14,6 +14,7 @@ def clean_data():
     # Inserte su código aquí
     #
     
+    
     df.dropna(inplace=True)
     df["sexo"] = df["sexo"].apply(lambda x: str(x).lower().strip())
     df["tipo_de_emprendimiento"] = df["tipo_de_emprendimiento"].apply(lambda x: str(x).lower().strip())
