@@ -50,3 +50,4 @@ def clean_data():
     df.dropna(inplace=True)
 
     return df
+ 
